@@ -1,6 +1,8 @@
 # effective-iOS-tricks
 
-有效提高iOS开发效率的技巧集合，欢迎有兴趣的朋友投稿参与。
+有效提高iOS开发效率的技巧集合，期待有兴趣的朋友参与进来！
+这里将持续收集一些在实际开发中非常实用的开发技巧、奇淫巧技、踩过的坑、疑难杂症解决方案等等。
+
 
 A collection of skills that effectively improve the efficiency of iOS development. Interested friends are welcome to contribute.
 
@@ -17,6 +19,6 @@ If you happen to have the tricks to improve your development efficiency and are 
 - [ApesTalk](https://github.com/ApesTalk)
 
 
-# License 
+# License
 
 MIT license.
