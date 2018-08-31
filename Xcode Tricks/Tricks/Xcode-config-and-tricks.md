@@ -38,3 +38,7 @@ defaults write com.apple.Xcode PBXNumberOfParallelBuildSubtasks 8
 ![DYLD_PRINT_STATISTICS](https://github.com/ApesTalk/effective-iOS-tricks/Xcode Tricks/Images/DYLD_PRINT_STATISTICS.png)
 
 ￼
+## Xcode无法注释（注释快捷键不能使用）问题
+
+某些情况下，Xcode的注释失效了，也就是Toggle Comments和Add Documentation不能使用。解决办法：
+在应用程序中把Xcode改个名字，然后再改回来。
