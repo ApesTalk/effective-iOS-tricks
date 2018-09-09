@@ -42,3 +42,9 @@ defaults write com.apple.Xcode PBXNumberOfParallelBuildSubtasks 8
 
 某些情况下，Xcode的注释失效了，也就是Toggle Comments和Add Documentation不能使用。解决办法：
 在应用程序中把Xcode改个名字，然后再改回来。
+
+## 通过模拟器给你的APP录制一个视频（模拟器录屏功能）
+
+在终端中执行``xcrun simctl io booted recordVideo filename.mov ``，然后在模拟器中进行操作，操作完了之后再执行``Ctrl+C``终止录屏，然后filename.mov就保存在user主目录下了。
+
+-- 该条收集自：[Record a video of your app running in the iOS simulator](http://iosdevelopertips.com/tools/video-ios-simulator.html)
