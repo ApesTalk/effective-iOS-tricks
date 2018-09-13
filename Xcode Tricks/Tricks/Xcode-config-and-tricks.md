@@ -22,6 +22,9 @@ defaults write com.apple.Xcode PBXNumberOfParallelBuildSubtasks 8
 ```
 
 
+其他配置，可以参考：[如何提高XCode编译速度、Xcode卡顿解决方案](https://www.jianshu.com/p/c805949c2d33)
+
+
 ## 禁止Xcode打印杂七杂八的系统日志
 
 
