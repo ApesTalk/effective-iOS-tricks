@@ -1,6 +1,6 @@
 > 这里是可以提高iOS开发效率的NSAttributedString类相关的技巧。
 
-## 给UILabel、UITextField、UITextView、UIButton等设置富文本时需要注意
+## 给UILabel、UITextField、UITextView、UIButton等设置富文本时必须知道的一点
 
 
 在给UILabel、UITextField、UITextView、UIButton等设置富文本时，它的font和textColor属性会被富文本的第一个字符的font和textColor给覆盖掉。设置富文本之后如果再设置text，可以看到发生的改变。

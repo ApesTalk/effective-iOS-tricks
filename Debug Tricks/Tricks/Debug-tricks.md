@@ -1,8 +1,22 @@
 > 这里是可以提高iOS开发效率的Debug技巧。
 
-## 查看dSYM文件的uuid
+## 查看dSYM和.ipa文件的uuid
 
+- 查看dSYM文件的uuid
+
+```
 xcrun dwarfdump --uuid <dSYM文件路径>
+```
+
+- 查看.ipa文件的uuid
+
+```
+//把.ipa文件后缀名改成.zip并解压
+$ cp Example.ipa Example.zip 
+$ unzip Example.zip
+$ cd Payload
+$ xcrun dwarfdump --uuid Example.app/Example
+```
 
 ## Xcode常用调试命令
 

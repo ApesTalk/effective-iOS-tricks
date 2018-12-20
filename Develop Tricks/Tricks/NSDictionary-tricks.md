@@ -5,3 +5,10 @@
 ```
 NSDictionary *dict = @{@"mame" : @"ApesTalk", @"github" : @"https://github.com/ApesTalk"};
 ```
+
+## NSMutableDictionary防止setObject:forKey: object cannot be nil奔溃的写法
+
+NSMutableDictionary *dic = [NSMutableDictionary dictionary];
+[dic setObject:nil forKey:@"key1"];//crash
+dic[@"key1"] = nil;//no crash
+[dic setValue:nil forKey:@"key2"];//no crash

@@ -51,3 +51,13 @@ defaults write com.apple.Xcode PBXNumberOfParallelBuildSubtasks 8
 在终端中执行``xcrun simctl io booted recordVideo filename.mov ``，然后在模拟器中进行操作，操作完了之后再执行``Ctrl+C``终止录屏，然后filename.mov就保存在user主目录下了。
 
 -- 该条收集自：[Record a video of your app running in the iOS simulator](http://iosdevelopertips.com/tools/video-ios-simulator.html)
+
+
+## 关于dSYM不得不说的一件事
+
+符号表是内存地址与函数名、文件名、行号的映射表。符号表元素如下所示：
+<起始地址> <结束地址> <函数> [<文件名:行号>]
+
+**简单点说就是同一份代码，编译之后的符号表文件的uuid是一样的。** 看到uuid，大家可能已经形成思维定式了，认为每次它都会创建一个新的唯一的起到标识的作用。
+
+很惭愧，以前由于本人思维定式（估计很多人跟我一样吧，我发现网上很多文章也是这么讲的），一直认为每次打包都会生成一个新的dSYM并生成一个新的uuid，所以有时候如果打包后忘记上传符号表到bugly，线上出现奔溃，解析不出来源代码，会很无奈地认为没有什么补救办法。其实这个时候我们只需要找到上一次打包的那个时间点（代码相同），再重新archive一下，导出dSYM文件，这个dSYM文件的uuid跟之前打包生成的app的uuid是一致的。
