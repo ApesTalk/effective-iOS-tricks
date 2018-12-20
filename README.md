@@ -47,7 +47,7 @@ A collection of skills that effectively improve the efficiency of iOS developmen
 - 让数组中的对象执行指定方法
 - 批量删除数组中的对象
 
-### [Document-tricks](https://github.com/ApesTalk/effective-iOS-tricks/blob/master/Develop%20Tricks/Document-tricks.md)
+### [Document-tricks](https://github.com/ApesTalk/effective-iOS-tricks/blob/master/Develop%20Tricks/Tricks/Document-tricks.md)
 
 - 禁止iCloud同步Document目录下的某文件
 
