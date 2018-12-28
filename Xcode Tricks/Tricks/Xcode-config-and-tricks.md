@@ -53,7 +53,7 @@ defaults write com.apple.Xcode PBXNumberOfParallelBuildSubtasks 8
 -- 该条收集自：[Record a video of your app running in the iOS simulator](http://iosdevelopertips.com/tools/video-ios-simulator.html)
 
 
-## 关于dSYM不得不说的一件事
+## 关于符号表（dSYM）的误解与事实
 
 符号表是内存地址与函数名、文件名、行号的映射表。符号表元素如下所示：
 <起始地址> <结束地址> <函数> [<文件名:行号>]
