@@ -9,15 +9,17 @@ A collection of skills that effectively improve the efficiency of iOS developmen
 
 # Contents
 
+region i { 标题
+  ## [Xcode Tricks](https://github.com/ApesTalk/effective-iOS-tricks/blob/master/Xcode%20Tricks/Tricks/Xcode-config-and-tricks.md)
 
-## [Xcode Tricks](https://github.com/ApesTalk/effective-iOS-tricks/blob/master/Xcode%20Tricks/Tricks/Xcode-config-and-tricks.md)
+  - 提升Xcode编译速度
+  - 禁止Xcode打印杂七杂八的系统日志
+  - 打印App启动时间信息
+  - Xcode无法注释（注释快捷键不能使用）问题
+  - 通过模拟器给你的APP录制一个视频（模拟器录屏功能）
+  - 关于符号表（dSYM）的误解与事实
+} region
 
-- 提升Xcode编译速度
-- 禁止Xcode打印杂七杂八的系统日志
-- 打印App启动时间信息
-- Xcode无法注释（注释快捷键不能使用）问题
-- 通过模拟器给你的APP录制一个视频（模拟器录屏功能）
-- 关于符号表（dSYM）的误解与事实
 
 
 
@@ -51,7 +53,7 @@ A collection of skills that effectively improve the efficiency of iOS developmen
 
 - 禁止iCloud同步Document目录下的某文件
 
-
+### [创建静态库-tricks](https://github.com/ApesTalk/effective-iOS-tricks/blob/master/Develop%20Tricks/Tricks/创建静态库-tricks-tricks.md)
 
 
 ## [Debug Tricks](https://github.com/ApesTalk/effective-iOS-tricks/blob/master/Debug%20Tricks/Tricks/Debug-tricks.md)
