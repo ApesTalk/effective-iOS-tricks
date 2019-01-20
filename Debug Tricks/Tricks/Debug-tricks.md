@@ -21,5 +21,9 @@ $ xcrun dwarfdump --uuid Example.app/Example
 ## Xcode常用调试命令
 
 - 打印命令：p或po，不能打印宏定义。
-- call：执行一段代码，对点语法不敏感。如： call (void)([[self view] setBackgroundColor:[UIColor redColor]]])
-- bt：打印堆栈信息，bt all：打印所有堆栈信息。
+- call：执行一段代码，对点语法不敏感。如： ``call (void)([[self view] setBackgroundColor:[UIColor redColor]]])``
+- bt：打印堆栈信息。
+- bt all：打印所有堆栈信息。
+- watchpoint：
+    - ``watchpoint set variable son->_name`` 一定得是instance->_xx这种格式，不能用于点语法，因为这里不接受方法。用于检测变量的值发生改变。
+    - ``watchpoint set expression 地址`` 观察某个地址。
