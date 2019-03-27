@@ -29,9 +29,9 @@ $ xcrun dwarfdump --uuid Example.app/Example
     - ``watchpoint set expression 地址`` 观察某个地址。
 - Debug Memory Graph检测内存泄漏
 
-! [Debug Memory Graph](https://github.com/ApesTalk/effective-iOS-tricks/blob/master/Images/Debug_Memory_Graph.png)
+![Debug Memory Graph](https://github.com/ApesTalk/effective-iOS-tricks/blob/master/Images/Debug_Memory_Graph.png)
 
 程序运行过程中点击Debug Memory Graph，可以看到当前没有释放的对象，点击绿色的对象可以看到当前有哪些类正在引用它。要看调用栈信息，在Edit Scheme -> Diagnostics 下勾选Malloc Stack -> Live Allocations Only。
 
-! [Debug Memory Graph](https://github.com/ApesTalk/effective-iOS-tricks/blob/master/Images/Not_Released_Object.png)
+![Debug Memory Graph](https://github.com/ApesTalk/effective-iOS-tricks/blob/master/Images/Not_Released_Object.png)
 
