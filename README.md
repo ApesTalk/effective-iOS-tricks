@@ -60,6 +60,11 @@ region i { 标题
 
 - 查看dSYM和.ipa文件的uuid
 - Xcode常用调试命令
+    - p and po
+    - call 执行一段代码，对点语法不敏感。如 ``call (void)([[self view] setBackgroundColor:[UIColor redColor]]])``或``call (void)(self.view.backgroundColor = [UIColor redColor])``
+    - bt 或 bt all 打印堆栈信息 
+    - watchpoint 检测变量值发生改变
+    - Debug Memory Graph检测内存泄漏
 
 
 # 投稿说明 Contribute Guide
