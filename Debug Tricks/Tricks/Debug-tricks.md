@@ -35,3 +35,6 @@ $ xcrun dwarfdump --uuid Example.app/Example
 
 ![Debug Memory Graph](https://github.com/ApesTalk/effective-iOS-tricks/blob/master/Images/Not_Released_Object.png)
 
+- 断点查看方法返回值
+
+如果方法的最后一行代码是```return xxx;```，在该行加个断点，当程序断到这里的时候，点一下Step out，然后就可以在Variables View中看到一个Return Value和一些其他信息，选中Return Value，按下空格键就可以预览返回值的内容。
