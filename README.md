@@ -21,6 +21,9 @@ region i { 标题
 } region
 
 
+# 使用技巧
+
+按 T 可以进入搜索页面，查找你需要的内容
 
 
 ## [Develop Tricks](https://github.com/ApesTalk/effective-iOS-tricks/blob/master/Develop%20Tricks/Tricks)
