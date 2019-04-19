@@ -18,12 +18,13 @@ A collection of skills that effectively improve the efficiency of iOS developmen
 
 region i { Xcode tricks
 
-  - 提升Xcode编译速度
-  - 禁止Xcode打印杂七杂八的系统日志
-  - 打印App启动时间信息
-  - Xcode无法注释（注释快捷键不能使用）问题
-  - 通过模拟器给你的APP录制一个视频（模拟器录屏功能）
-  - 关于符号表（dSYM）的误解与事实
+  提升Xcode编译速度
+  禁止Xcode打印杂七杂八的系统日志
+  打印App启动时间信息
+  Xcode无法注释（注释快捷键不能使用）问题
+  通过模拟器给你的APP录制一个视频（模拟器录屏功能）
+  关于符号表（dSYM）的误解与事实
+  
 } region
 
 
