@@ -7,10 +7,16 @@
 A collection of skills that effectively improve the efficiency of iOS development. Interested friends are welcome to contribute.
 
 
+# 使用技巧
+
+按 T 可以进入搜索页面，查找你需要的内容
+
+
 # Contents
 
-region i { 标题
-  ## [Xcode Tricks](https://github.com/ApesTalk/effective-iOS-tricks/blob/master/Xcode%20Tricks/Tricks/Xcode-config-and-tricks.md)
+[Xcode Tricks](https://github.com/ApesTalk/effective-iOS-tricks/blob/master/Xcode%20Tricks/Tricks/Xcode-config-and-tricks.md)
+
+region i { Xcode tricks
 
   - 提升Xcode编译速度
   - 禁止Xcode打印杂七杂八的系统日志
@@ -21,9 +27,7 @@ region i { 标题
 } region
 
 
-# 使用技巧
 
-按 T 可以进入搜索页面，查找你需要的内容
 
 
 ## [Develop Tricks](https://github.com/ApesTalk/effective-iOS-tricks/blob/master/Develop%20Tricks/Tricks)
