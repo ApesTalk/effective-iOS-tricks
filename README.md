@@ -66,6 +66,7 @@ region i { 标题
     - watchpoint 检测变量值发生改变
     - Debug Memory Graph检测内存泄漏
     - 断点查看方法返回值
+    - x命令查看内存地址中的值
 
 
 
